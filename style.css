@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Seymour+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #FFEBCD;
+}
+h1{
+    font-size: 34px;
+}
+h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bi-search, .bi-cart3{
+    color: #602306;
+    width: 20px;
+}
+.headerlogo{
+    margin-left: 50px;
+}
+.headericons{
+    display: flex;
+    gap: 60px;
+    margin-right: 80px;
+}
+.headersubsec ul{
+    display: flex;
+    gap: 140px;
+    list-style-type: none;
+}
+.headersubsec a{
+    color: black;
+    text-decoration: none;
+}
+
+/* header section ends here  */
+
+.subherosec1{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+.subherosec1 h1{
+    color: #7B5F52;
+    font-weight: bold;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.icecol{
+    color: #682A0C;
+    font-weight: bold;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.subherosec2{
+    text-align: center;
+}
+.subherosec2 span{
+    color: #953100;
+    font-weight: bold;
+}
+.subherosec3 button{
+    background-color: #602306;
+    color: #ffffff;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 40px 0px 20px 0px;
+}
+.subherosec3{
+    text-align: center;
+}
+.subherosec4{
+    text-align: center;
+}
+.herosecimg{
+    position: relative;
+    bottom: 50px;
+}
+
+
+/* new arrival section starts here  */
+
+.newarrivalssection{
+    text-align: center;
+    color: #602306;
+    margin-bottom: 50px;
+}
+.newarrivalssection h2{
+    margin-bottom: 50px;
+}
+.arrivalsmainsec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.img1, .img3{
+    height: 80%;
+}
+
+.seasonicesec{
+    text-align: center;
+    color: #602306;
+}
+.seasonicesec h2{
+    margin: 80px 0px 60px 0px;
+}
+.seasonmainsec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.seasonicesec h3{
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.monsoonicesec{
+    text-align: center;
+    color: #602306;
+    margin-bottom: 60px;
+}
+.monsoonmainsec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.monsoonicesec h3{
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.wintericesec{
+    text-align: center;
+    color: #602306;
+    margin-bottom: 100px;
+}
+.wintermainsec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.wintericesec h3{
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+
+/* about us section starts here  */
+
+.aboutusbg{
+    background-color: #FFEBCD;
+}
+.searchsubsec{
+    padding-top: 35px;
+}
+.searchmainsec{
+    text-align: center;
+    color: #602306;
+    background-color: #FFC875;
+}
+.searchmainsecbutton{
+    padding: 7px 300px 5px 10px;
+    align-items: center;
+    border: none; 
+    border-radius: 10px;
+}
+.search2img{
+    width: 20px;
+}
+.searchmainsecbutton2{
+    font-size: 22px;
+    /* font-weight: bold; */
+    background-color: #602306;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.searchsubsec2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.imageaboutusleft img{
+    width: 22%;
+    position: absolute;
+    top: 20px;
+}
+.imageaboutusright img{
+    width: 22%;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.searchsec{
+    position: relative;
+}
+
+
+.servicesmain h2{
+    text-align: center;
+    margin-top: 20px;
+    color: #602306;
+}
+.aboutuscardmain{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px ;
+}
+.aboutuscardmain img{
+    width: 235px;
+}
+.aboutuscardsub{
+    margin-top: 75px;
+}
+.aboutussubsec{
+    padding-bottom: 200px;
+    text-align: center;
+    color: #602306;
+    background-color: red;
+    position: relative;
+}
+.aboutuslefttop{
+    position: absolute;
+}
+.aboutusleftbottom{
+    position: absolute;
+}
+.aboutusrightbottom{
+    position: absolute;
+}
+
